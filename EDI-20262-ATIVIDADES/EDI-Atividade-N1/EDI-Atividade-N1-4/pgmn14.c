@@ -112,12 +112,12 @@ void listarFila(Fila f) {
     }
 
     NoPtr atual = f->ini;
-    printf("\n=== FILA DE PACIENTES ===\n");
+    printf("\n== FILA DE PACIENTES ==\n");
     while (atual != NULL) {
         printf("ID: %d | Nome: %s\n", atual->id, atual->nome);
         atual = atual->prox;
     }
-    printf("=========================\n");
+    printf("========================\n");
 }
 
 // 5. Destruição completa da fila e liberação de memória

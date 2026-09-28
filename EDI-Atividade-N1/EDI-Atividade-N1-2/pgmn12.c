@@ -5,6 +5,7 @@
 
 int estoque [TAMANHO_ESTOQUE];
 
+
 void exibirCabecalho (void) {
     printf("SISTEMA DE ESTOQUE - LOJA CONSTRUMAIS\n");
     printf("--------------------------------------------------\n");
